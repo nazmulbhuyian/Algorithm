@@ -1,12 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-void init_code()
-{
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-    #endif // ONLINE_JUDGE
-}
 
 const int N = 1e3+5;
 vector<int> adj[N];
@@ -43,7 +36,6 @@ void bfs(int s)
 
 int main()
 {
-    init_code();
 
     int n,m;
     cin >> n >> m;
